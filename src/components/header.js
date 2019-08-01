@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
     <Link id="logo" to="/">
       <MenuIcon />
     </Link>
-    <div id="menu">
+    <menu>
       <h3>
         <Link style={{ textDecoration: `none` }} to="/about">
           about
@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
       <h3>
         <Link style={{ textDecoration: `none` }}>projects</Link>
       </h3>
-    </div>
+    </menu>
   </HeaderStyles>
 )
 

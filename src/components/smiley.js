@@ -18,7 +18,7 @@ const Smiley = () => {
     query {
       placeholderImage: file(relativePath: { eq: "Smiley.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -26,7 +26,12 @@ const Smiley = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      style={{ borderRadius: "50%", maxWidth: "200px" }}
+    />
+  )
 }
 
 export default Smiley

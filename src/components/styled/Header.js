@@ -5,6 +5,7 @@ export const HeaderStyles = styled.header`
   justify-content: space-between;
   #logo {
     width: 12%;
+    min-width: 75px;
     margin: 2rem;
   }
   #menu {

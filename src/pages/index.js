@@ -1,20 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Landing from "../components/landing"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="lucas homer dot com" />
-    <h1>Hi people</h1>
-    <p>Welcome to my website</p>
-
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/about/">Go to page 2</Link>
+    <Landing />
   </Layout>
 )
 
