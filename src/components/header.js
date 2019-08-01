@@ -1,34 +1,28 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import MenuIcon from "./MenuIcon"
+import { HeaderStyles } from "./styled/Header"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `#333`,
-      marginBottom: `1rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+  <HeaderStyles>
+    <Link id="logo" to="/">
+      <MenuIcon />
+    </Link>
+    <div id="menu">
+      <h2>
         <Link
-          to="/"
+          to="/about"
           style={{
-            color: `white`,
+            color: `#54264D`,
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          about
         </Link>
-      </h1>
+      </h2>
     </div>
-  </header>
+  </HeaderStyles>
 )
 
 Header.propTypes = {
