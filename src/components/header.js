@@ -10,17 +10,17 @@ const Header = ({ siteTitle }) => (
       <MenuIcon />
     </Link>
     <div id="menu">
-      <h2>
-        <Link
-          to="/about"
-          style={{
-            color: `#54264D`,
-            textDecoration: `none`,
-          }}
-        >
+      <h3>
+        <Link style={{ textDecoration: `none` }} to="/about">
           about
         </Link>
-      </h2>
+      </h3>
+      <h3>
+        <Link style={{ textDecoration: `none` }}>blog</Link>
+      </h3>
+      <h3>
+        <Link style={{ textDecoration: `none` }}>projects</Link>
+      </h3>
     </div>
   </HeaderStyles>
 )
