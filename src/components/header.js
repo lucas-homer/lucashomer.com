@@ -6,7 +6,7 @@ import { HeaderStyles } from "./styled/Header"
 
 const Header = ({ siteTitle }) => (
   <HeaderStyles>
-    <Link id="logo" to="/">
+    <Link style={{ textDecoration: `none` }} id="logo" to="/">
       <MenuIcon />
     </Link>
     <menu>

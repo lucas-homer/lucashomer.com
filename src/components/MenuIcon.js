@@ -10,7 +10,7 @@ const SvgComponent = props => (
         fontFamily="WorkSans-Light,Work Sans"
         fontWeight={300}
       >
-        <tspan letterSpacing="-.02em">{"Lucas"}</tspan>
+        <tspan letterSpacing="-.01em">{"Lucas"}</tspan>
         <tspan x={64.01} y={0} letterSpacing="-.01em">
           {"Homer"}
         </tspan>
