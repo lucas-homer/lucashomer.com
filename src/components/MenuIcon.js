@@ -7,7 +7,7 @@ const SvgComponent = props => (
         transform="matrix(.95 0 0 1 0 59.48)"
         fontSize="21px"
         fill="#54264d"
-        fontFamily="WorkSans-Light,Work Sans"
+        fontFamily="WorkSans-Light,Work Sans, Helvetica"
         fontWeight={300}
       >
         <tspan letterSpacing="-.01em">{"Lucas"}</tspan>
