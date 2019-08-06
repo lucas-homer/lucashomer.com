@@ -5,7 +5,7 @@ const SvgComponent = props => (
     <g data-name="Layer 2">
       <text
         transform="matrix(.95 0 0 1 0 59.48)"
-        fontSize="21px"
+        fontSize="1.2rem"
         fill="#54264d"
         fontFamily="WorkSans-Light,Work Sans, Helvetica"
         fontWeight={300}

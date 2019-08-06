@@ -3,18 +3,19 @@ import styled from "styled-components"
 export const HeaderStyles = styled.header`
   display: flex;
   justify-content: space-between;
-  #logo {
+  .logo {
     width: 12%;
     min-width: 75px;
-    margin: 2rem;
+    margin: 1rem;
   }
-  #menu {
+  menu {
     display: flex;
-    padding: 2.5rem;
+    justify-content: flex-end;
+    margin-right: 1rem;
   }
   h3 {
     color: black;
-    margin: 0 1rem;
+    margin-left: 1rem;
     &:hover {
       transform: translateY(-5%);
     }
