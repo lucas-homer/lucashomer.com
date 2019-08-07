@@ -6,6 +6,7 @@ export const HeaderStyles = styled.header`
   .logo {
     width: 12%;
     min-width: 75px;
+    max-width: 150px;
     margin: 1rem;
   }
   menu {
@@ -14,10 +15,7 @@ export const HeaderStyles = styled.header`
     margin-right: 1rem;
   }
   h3 {
-    color: black;
+    color: #262626;
     margin-left: 1rem;
-    &:hover {
-      transform: translateY(-5%);
-    }
   }
 `
